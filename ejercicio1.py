@@ -7,3 +7,7 @@ n = int(input("Ingresa el número de término que quieres (n): "))
 an = a1 + (n - 1) * d
 
 print("El término número", n, "de la progresión aritmética es:", an)
+
+print("La suma total es:")
+SN=n*(a1+an)/2
+print(SN)
